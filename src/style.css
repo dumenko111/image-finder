@@ -36,7 +36,7 @@ input:focus {
 }
 
 .search-button {
-     height: calc(1.85rem + 2px);
+    height: calc(1.85rem + 2px);
     font-family: inherit;
     font-size: 1rem;
     font-weight: 400;
