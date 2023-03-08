@@ -8,9 +8,27 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
+    <div class="container">
+    <form class="search-form" id="search-form">
+      <input type="text" name="query" autocomplete="off" placeholder="Search images..."/>
 
+      <button type="submit" class="search-button">
+        <span class="">SEARCH</span>
+      </button>
+    </form>
 
+    <ul class="gallery">
+      <!-- Список <li> с карточками зображень -->
+    </ul>
 
-    
+    <button type="submit" class="search-more--button is-hidden">
+      <span class="">LOAD MORE</span>
+    </button>
+
+    <button type="button" class="scroll-top is-hidden">
+      <!-- <span class="button-scroll-text">Вперед і вгору!)))</span> -->
+    </button>
+  </div>
+
   </body>
 </html>
