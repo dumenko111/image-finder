@@ -1,24 +1,24 @@
 export default function createMarkup(cards) {
-  return cards.map(card => {
+  return cards.map(({webformatURL, likes, views, comments, downloads}) => {
     return  `<div class="photo-card">
-  <img src="${card.webformatURL}" alt="" />
+  <img src="${webformatURL}" alt="" width="440" height="300"/>
 
   <div class="stats">
     <p class="stats-item">
       <i class="material-icons">thumb_up</i>
-      ${card.likes}
+      ${likes}
     </p>
     <p class="stats-item">
       <i class="material-icons">visibility</i>
-      ${card.views}
+      ${views}
     </p>
     <p class="stats-item">
       <i class="material-icons">comment</i>
-      ${card.comments}
+      ${comments}
     </p>
     <p class="stats-item">
       <i class="material-icons">cloud_download</i>
-      ${card.downloads}
+      ${downloads}
     </p>
   </div>
 </div>`
