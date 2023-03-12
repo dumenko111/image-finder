@@ -111,3 +111,11 @@ input:focus {
   max-width: 440px;
   margin-bottom: 15px;
 }
+
+
+#sentinel {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: red;
+}
